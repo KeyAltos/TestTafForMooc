@@ -61,6 +61,7 @@
             }
 
             WebDriver.Manage().Window.Maximize();
+            WebDriver.Manage().Timeouts().ImplicitlyWait(TimeSpan.FromSeconds(10));
         }
 
         public static void DisposeDriver()

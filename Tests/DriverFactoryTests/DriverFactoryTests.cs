@@ -1,4 +1,4 @@
-namespace Tests.Singlton
+namespace Tests.DriverFactoryTests
 {
     using Microsoft.VisualStudio.TestTools.UnitTesting;
 
@@ -6,12 +6,12 @@ namespace Tests.Singlton
     /// The singleton tests.
     /// </summary>
     [TestClass]
-    public class SingletonTests : BaseSingltonDriverTest
+    public class DriverFactoryTests : BaseDriverFactoryTest
     {
         protected string TargetSite;
 
         [TestMethod]
-        public void TestMetod1()
+        public void TestMetod11()
         {
             this.TargetSite = "google";
 
@@ -21,7 +21,7 @@ namespace Tests.Singlton
         }
 
         [TestMethod]
-        public void TestMetod2()
+        public void TestMetod12()
         {
             this.TargetSite = "bbc";
 

@@ -55,6 +55,7 @@
   <ItemGroup>
     <Compile Include="DataModel\Browser.cs" />
     <Compile Include="DataModel\TestSettings.cs" />
+    <Compile Include="DriverFactories\DriverFactory.cs" />
     <Compile Include="DriverFactories\SingletonDriver.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -1,6 +1,8 @@
-namespace Tests.Singlton
+namespace Tests.SingltonTests
 {
     using Microsoft.VisualStudio.TestTools.UnitTesting;
+
+    using Tests.Singlton;
 
     using TestTAF.DriverFactories;
 

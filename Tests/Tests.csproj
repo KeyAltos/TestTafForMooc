@@ -56,8 +56,10 @@
   <ItemGroup>
     <Compile Include="BaseTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Singlton\BaseSingltonDriverTest.cs" />
-    <Compile Include="Singlton\SingletonTests.cs" />
+    <Compile Include="DriverFactoryTests\BaseDriverFactoryTest.cs" />
+    <Compile Include="DriverFactoryTests\DriverFactoryTests.cs" />
+    <Compile Include="SingltonTests\BaseSingltonDriverTest.cs" />
+    <Compile Include="SingltonTests\SingletonTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\TestTAF\TestTAF.csproj">
