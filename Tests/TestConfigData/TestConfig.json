@@ -1,0 +1,4 @@
+﻿{
+  // "Chrome", "FF", "IE11"
+  "BrowserUnderTest": "Chrome"
+}
